@@ -2,24 +2,27 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
+		<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=no">
 		<meta name="apple-mobile-web-app-capable" content="yes" />
 
 		<!-- Page Title -->
-		<title>Template Generator</title>
+		<title>Template 13</title>
 
 		<!-- Fonts and Material Icons -->
-		<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700|Roboto|Material+Icons" rel="stylesheet" type="text/css"/>
+		<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700|Material+Icons" rel="stylesheet" type="text/css"/>
 		
+
+		<!-- Base Path to Scripts -->
+		<base href="../">
 
 		<!-- Styles -->
 		<link href="css/slides.css" rel="stylesheet" type="text/css">
 
 		<!-- Custom Styles -->
-    <link href="css/custom.css" rel="stylesheet" type="text/css"
+		<!--link href="css/custom.css" rel="stylesheet" type="text/css"-->
 
 		<!-- Scripts -->
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+		<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
 		<script src="js/plugins.js" type="text/javascript" name="plugins"></script>
 		<script src="js/slides.js" type="text/javascript" name="main-scripts"></script>
 
@@ -27,15 +30,15 @@
 		<!--script src="js/custom.js" type="text/javascript" name="custom-scripts"></script-->
 		 
 	</head>
-	<body class="slides smooth simplifiedMobile smoothScroll animated">
+	<body class="slides scroll animated">
 		
 
 <!-- SVG Library -->
 <svg xmlns="http://www.w3.org/2000/svg" style="display:none">
   
-  <symbol id="logo" viewBox="0 0 106 31"><title>Brand Name</title><path d="M17.413 14.04c-.56-5.84-5.6-7-8.52-7-4.6 0-8.6 2.92-8.6 7.52 0 3 2.4 4.88 5.28 5.8 4.24 1.64 5.88 1.84 5.88 3.36 0 1.08-1.2 1.72-2.32 1.72-.28 0-2.24 0-2.52-2.04h-6.6c.6 5.84 5.68 7.36 9.04 7.36 4.92 0 9.04-2.88 9.04-7.76 0-4.8-4-5.92-7.76-6.96-1.76-.52-3.4-1.2-3.4-2.2 0-.6.48-1.48 1.88-1.48 1.96 0 2.04 1.2 2.08 1.68h6.52zm2.222 15.96h6.64v-29.6h-6.64v29.6zm9.662-24.56h6.64v-5.04h-6.64v5.04zm0 24.56h6.64v-22.2h-6.64v22.2zm32.782-29.6h-6.64v9.28c-.72-.72-2.6-2.64-6.52-2.64-5.64 0-11 4.28-11 11.8 0 6.68 4.4 11.88 11.12 11.88 4.48 0 6.08-2.2 6.72-3.12v2.4h6.32v-29.6zm-17.52 18.4c0-2.56 1.8-5.56 5.64-5.56 1.56 0 2.96.56 3.96 1.56 1 .96 1.64 2.32 1.64 3.92.08 1.64-.52 3.08-1.56 4.12s-2.52 1.68-4.12 1.68c-3.12 0-5.56-2.28-5.56-5.68v-.04zm42.502 2.4c.52-4.08-.32-7.64-3.12-10.64-2.08-2.2-5-3.52-8.4-3.52-6.76 0-11.64 5.72-11.64 11.92 0 6.6 5.4 11.76 11.76 11.76 2.28 0 4.48-.68 6.32-2 1.88-1.28 3.44-3.2 4.52-5.68h-6.8c-.8 1.16-1.92 2.08-4.04 2.08-2.6 0-4.84-1.56-5.12-3.92h16.52zm-16.44-5.04c.16-1.04 1.52-3.52 4.96-3.52s4.8 2.48 4.96 3.52h-9.92zm34.502-2.12c-.56-5.84-5.6-7-8.52-7-4.6 0-8.6 2.92-8.6 7.52 0 3 2.4 4.88 5.28 5.8 4.24 1.64 5.88 1.84 5.88 3.36 0 1.08-1.2 1.72-2.32 1.72-.28 0-2.24 0-2.52-2.04h-6.6c.6 5.84 5.68 7.36 9.04 7.36 4.92 0 9.04-2.88 9.04-7.76 0-4.8-4-5.92-7.76-6.96-1.76-.52-3.4-1.2-3.4-2.2 0-.6.48-1.48 1.88-1.48 1.96 0 2.04 1.2 2.08 1.68h6.52z"/></symbol>
+  <symbol id="logo" viewBox="0 0 106 31"><path d="M17.413 14.04c-.56-5.84-5.6-7-8.52-7-4.6 0-8.6 2.92-8.6 7.52 0 3 2.4 4.88 5.28 5.8 4.24 1.64 5.88 1.84 5.88 3.36 0 1.08-1.2 1.72-2.32 1.72-.28 0-2.24 0-2.52-2.04h-6.6c.6 5.84 5.68 7.36 9.04 7.36 4.92 0 9.04-2.88 9.04-7.76 0-4.8-4-5.92-7.76-6.96-1.76-.52-3.4-1.2-3.4-2.2 0-.6.48-1.48 1.88-1.48 1.96 0 2.04 1.2 2.08 1.68h6.52zm2.222 15.96h6.64v-29.6h-6.64v29.6zm9.662-24.56h6.64v-5.04h-6.64v5.04zm0 24.56h6.64v-22.2h-6.64v22.2zm32.782-29.6h-6.64v9.28c-.72-.72-2.6-2.64-6.52-2.64-5.64 0-11 4.28-11 11.8 0 6.68 4.4 11.88 11.12 11.88 4.48 0 6.08-2.2 6.72-3.12v2.4h6.32v-29.6zm-17.52 18.4c0-2.56 1.8-5.56 5.64-5.56 1.56 0 2.96.56 3.96 1.56 1 .96 1.64 2.32 1.64 3.92.08 1.64-.52 3.08-1.56 4.12s-2.52 1.68-4.12 1.68c-3.12 0-5.56-2.28-5.56-5.68v-.04zm42.502 2.4c.52-4.08-.32-7.64-3.12-10.64-2.08-2.2-5-3.52-8.4-3.52-6.76 0-11.64 5.72-11.64 11.92 0 6.6 5.4 11.76 11.76 11.76 2.28 0 4.48-.68 6.32-2 1.88-1.28 3.44-3.2 4.52-5.68h-6.8c-.8 1.16-1.92 2.08-4.04 2.08-2.6 0-4.84-1.56-5.12-3.92h16.52zm-16.44-5.04c.16-1.04 1.52-3.52 4.96-3.52s4.8 2.48 4.96 3.52h-9.92zm34.502-2.12c-.56-5.84-5.6-7-8.52-7-4.6 0-8.6 2.92-8.6 7.52 0 3 2.4 4.88 5.28 5.8 4.24 1.64 5.88 1.84 5.88 3.36 0 1.08-1.2 1.72-2.32 1.72-.28 0-2.24 0-2.52-2.04h-6.6c.6 5.84 5.68 7.36 9.04 7.36 4.92 0 9.04-2.88 9.04-7.76 0-4.8-4-5.92-7.76-6.96-1.76-.52-3.4-1.2-3.4-2.2 0-.6.48-1.48 1.88-1.48 1.96 0 2.04 1.2 2.08 1.68h6.52z"/></symbol>
   
-  <symbol id="logo-icon" viewBox="0 0 50 41"><title>Brand Name</title><path d="M4,12h42c2.2,0,4,1.8,4,4v21c0,2.2-1.8,4-4,4H4c-2.2,0-4-1.8-4-4V16C0,13.8,1.8,12,4,12z"/><path opacity="0.6" d="M45.5,9h-41C3.7,9,3,8.3,3,7.5v0C3,6.7,3.7,6,4.5,6h41C46.3,6,47,6.7,47,7.5v0C47,8.3,46.3,9,45.5,9z"/><path opacity="0.4" d="M7.5,0h35C43.3,0,44,0.7,44,1.5v0C44,2.3,43.3,3,42.5,3h-35C6.7,3,6,2.3,6,1.5v0C6,0.7,6.7,0,7.5,0z"/></symbol>
+  <symbol id="logo-icon" viewBox="0 0 50 41"><path d="M4,12h42c2.2,0,4,1.8,4,4v21c0,2.2-1.8,4-4,4H4c-2.2,0-4-1.8-4-4V16C0,13.8,1.8,12,4,12z"/><path opacity="0.6" d="M45.5,9h-41C3.7,9,3,8.3,3,7.5v0C3,6.7,3.7,6,4.5,6h41C46.3,6,47,6.7,47,7.5v0C47,8.3,46.3,9,45.5,9z"/><path opacity="0.4" d="M7.5,0h35C43.3,0,44,0.7,44,1.5v0C44,2.3,43.3,3,42.5,3h-35C6.7,3,6,2.3,6,1.5v0C6,0.7,6.7,0,7.5,0z"/></symbol>
   
   <symbol id="close" viewBox="0 0 30 30"><path d="M15 0c-8.3 0-15 6.7-15 15s6.7 15 15 15 15-6.7 15-15-6.7-15-15-15zm5.7 19.3c.4.4.4 1 0 1.4-.2.2-.4.3-.7.3s-.5-.1-.7-.3l-4.3-4.3-4.3 4.3c-.2.2-.4.3-.7.3s-.5-.1-.7-.3c-.4-.4-.4-1 0-1.4l4.3-4.3-4.3-4.3c-.4-.4-.4-1 0-1.4s1-.4 1.4 0l4.3 4.3 4.3-4.3c.4-.4 1-.4 1.4 0s.4 1 0 1.4l-4.3 4.3 4.3 4.3z"/></symbol>
   
@@ -102,158 +105,211 @@
 
 </svg>
 
-<!-- Navigation -->
-<nav class="side">
-  <div class="navigation">
-    <ul></ul>
-  </div>
-</nav>
-
-<!-- Panel Top #10 -->
-<nav class="panel top forceMobileView oolm_color_1 hideOnScroll">
+<!-- Panel Top #05 -->
+<nav class="panel top fixed forceMobileView">
   <div class="sections desktop">
-    <div class="left">
-      <ul class="menu uppercase crop">
-        <li><a href="#home"><img src="assets/i2/_logo_tr_50px.png" alt="Only One Like Me" 
-            height="50" class="_logo"></a></li>  
-        <li><a href="#">English</a></li>
+    <div class="left"><a href="#"><svg style="width:107px;height:31px"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#logo"></use></svg></a></div>
+    <div class="right">
+      <ul class="menu crop">
+        <li><a href="#">Tour</a></li>
+        <li><a href="#">Upgrade</a></li>
+        <li><a href="#">Help</a></li>
+        <li><a href="#">Explore</a></li>
         <li><a href="http://twitter.com/designmodo" target="_blank"><svg class="twitterIcon"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#twitter"></use></svg></a></li>
       </ul>
     </div>
-    <div class="center">
-      <ul class="menu uppercase crop">
-        <li><a href="#">צרו קשר</a></li>
-        <li><a href="#">מי אנחנו</a></li>
-        <li><a href="#solution">הפתרון שלנו</a></li>
-    
-      </ul>
-    </div>
-    <div class="right"><a class="button menuButton round" href="#">אזור אישי</a></div>
   </div>
-  
   <div class="sections compact hidden">
-    <div class="left">
-      <!--<a href="#" title="Brand Name"><svg style="width:107px;height:31px"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#logo"></use></svg></a>-->
-      <a href="#"><img src="assets/i2/_logo_tr_50px.png" alt="Only One Like Me" 
-            height="50" class="_logo"></a>
-    </div>
+    <div class="left"><a href="#"><svg style="width:107px;height:31px"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#logo"></use></svg></a></div>
     <div class="right"><span class="button actionButton sidebarTrigger" data-sidebar-id="1"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#menu"></use></svg></span></div>
   </div>
 </nav>
 
 <!-- Sidebar -->
-<nav class="sidebar oolm_color_1" data-sidebar-id="1">
+<nav class="sidebar deepPurple" data-sidebar-id="1">
   <div class="close"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close"></use></svg></div>
   <div class="content">
-    <!--<a href="#" title="Brand Name" class="logo"><svg width="120" height="50"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#logo"></use></svg></a>-->
-    <ul class="mainMenu uppercase _right">
-      <li><a href="#solution">הפתרון שלנו</a></li>
-      <li><a href="#">מי אנחנו</a></li>
-      <li><a href="#">צרו קשר</a></li>
+    <a href="#" class="logo"><svg width="120" height="50"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#logo"></use></svg></a>
+    <ul class="mainMenu uppercase">
+      <li><a href="#">Tour</a></li>
+      <li><a href="#">Upgrade</a></li>
+      <li><a href="#">Help</a></li>
+      <li><a href="#">Explore</a></li>
     </ul>
     <ul class="subMenu">
-      <li><a href="#">English</a></li>
+      <li><a href="#">About Us</a></li>
+      <li><a href="#">Blog</a></li>
+      <li><a href="#">Press & Media</a></li>
       <li><a href="#">Terms of Use</a></li>
       <li><a href="#">Privacy Policy</a></li>
+      <li><a href="#">Contact Us</a></li>
     </ul>
     <ul class="social">
       <li><a href="#"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#twitter"></use></svg></a></li>
       <li><a href="#"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#facebook"></use></svg></a></li>
+      <li><a href="#"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#googlePlus"></use></svg></a></li>
+      <li><a href="#"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#pinterest"></use></svg></a></li>
     </ul>
   </div>
 </nav>
 
-<!-- Slide 1 (#13) -->
-<section class="slide autoHeight fade kenBurns zoomout oolm_color_2" data-name="home">
+<!-- Template #13 -->
+<style>
+.customLogo { padding-bottom:27%;}
+.customSlide .wrap { padding-top:0px; padding-bottom:0px;}
+.customBox { position:relative;}
+.customBox-2 { padding:90px 0; }
+.hr { position:relative; margin-top: 40px; margin-bottom: 80px; }
+.hr:after {
+  content: "";
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	background: #E3E3E3;
+	height: 1px;
+	left: 0;
+  -webkit-transform:scaleX(3);
+  transform:scaleX(3);
+}
+
+.slides .panel.top {
+	-webkit-transition: 0.5s;
+	transition: 0.5s;
+}
+
+.slides .panel.top a {
+	-webkit-transition: opacity 0.15s;
+	transition: opacity 0.15s;
+}
+
+.image-13-1 {
+	margin: -23% 0 -6% -35%;
+  max-width:none;
+}
+
+.image-13-2 {
+	margin: -19% 0 -6% -65%;
+  max-width:none;
+}
+
+.image-13-3 {
+	margin: -21% 0 -47% 0%;
+  max-width:none;
+}
+
+@media screen and (max-width:1023px) {
+  .image-13-1,.image-13-2,.image-13-3 { max-width:100%;}
+  .image-13-1 { margin:-4% 0 0 -17.2% }
+  .image-13-2 { margin:-17% 0 0 -20%; }
+  .image-13-3 { margin:0 auto; }
+}
+
+.slide.whiteSlide form input[type="text"],
+.slide.whiteSlide form input[type="name"],
+.slide.whiteSlide form input[type="email"],
+.slide.whiteSlide form input[type="password"],
+.slide.whiteSlide form textarea {
+   box-shadow:none;
+}
+</style>
+
+<!-- Slide #23 -->
+<section class="slide fade scenic">
   <div class="content">
     <div class="container">
       <div class="wrap">
-        <div class="fix-10-12">
-          <div class="ae-2 crop">
-            <h1 class="huge">הורים ומטפלים נפגשים</h1>
-          </div>
-          <div class="ae-2">
-            <h2>בואו נמצא לילדכם את הטיפול הטוב ביותר</h2>
-          </div>
-          <div class="ae-2">
-            <form action="#" autocomplete="off">
-              <input type="submit" class="button oolm_color_4 ae-5 fromBlur rounded" name="submit" value="אני רוצה להתחיל"/>
-            </form>
-          </div>
+              
+        <p class="hero ae-1">Travel Journal</h3>
+        <div class="fix-6-12 ae-2 margin-top-4 margin-bottom-4"><img src="assets/img/templates/logo-13.png" alt="Final Journey"/></div>
+        <a class="button round uppercase pink ae-5 fromAbove">Start Free Trial</a>
+
+      </div>
+    </div>
+  </div>
+  <div class="background" style="background-image:url(assets/img/templates/img-13.jpg)"></div>
+</section>
+
+<!-- Slide #73 -->
+<section class="slide whiteSlide">
+  <div class="content" style="background:#CFD5E0">
+    <div class="container">
+      <div class="wrap">
+      
+        <div class="fix-12-12">
+          <ul class="grid">
+            <li class="col-6-12 left box-73">
+              <div class="ae-1"><p class="hero margin-bottom-1">Case study</p></div>
+              <h1 class="ae-2">Creativity is mastery of simplicity</h1>
+              <div class="ae-3"><p>No matter how many times your amazing, absolutely brilliant work is rejected by the client, for whatever dopey, arbitrary reason, there is often another amazing, absolutely brilliant solution possible.</p></div>
+            </li>
+            <li class="col-6-12 left ae-1 fromRight">
+              <img class="image-13-1" src="assets/img/templates/img-13-1.png" alt="Radio Image"/>
+            </li>
+          </ul>
+          
+          <ul class="grid fixedSpaces equal center grid-73">
+            <li class="col-4-12 ae-5">
+              <a href="#" class="cell-73 equalElement">
+                <i class="material-icons">important_devices</i>
+                <h3>Sync Faster</h3>
+                <p class="small">Quickly swipe messages to your archive or trash.</p>
+              </a>
+            </li>
+            <li class="col-4-12 ae-6">
+              <a href="#" class="cell-73 equalElement">
+                <i class="material-icons">voice_chat</i>
+                <h3>Automate</h3>
+                <p class="small">Scan entire conversations in a chat-like view.</p>
+              </a>
+            </li>
+            <li class="col-4-12 ae-7">
+              <a href="#" class="cell-73 equalElement last">
+                <i class="material-icons">switch_camera</i>
+                <h3>Best Music</h3>
+                <p class="small">Unforgettable feelings through a quality music.</p>
+              </a>
+            </li>
+          </ul>
         </div>
-                
+        
       </div>
     </div>
   </div>
-  <div class="background" style="background-image:url(assets/i2/_kid_dreams.jpg)"></div>
 </section>
 
-<!-- Slide 2 (#40) -->
-<section class="slide fade kenBurns oolm_color_3" data-name="why">
-  <div class="content">
-    <div class="container">
-      <div class="wrap">
-          <div class="ae-2">
-            <h1 class="ae-2 crop _right">אין תרופת קסם שיכולה לרפא את כל הבעיות והאתגרים של ילדינו</h1>
-          </div>
-          <div class="ae-2">
-            <h2>אך ישנם טיפולים רבים אשר יכולים לשפר את איכות חייהם</h2>
-          </div>
-          <form action="#" autocomplete="off">
-            <input type="submit" class="button oolm_color_5 ae-5 fromBlur rounded stroke" name="submit" value="בואו נמצא מטפלים"/>
-          </form>
-      </div>
-    </div>
-  </div>
-  <div class="background" style="background-image:url(assets/i2/_mother_hugs_kid_father_therapist.jpg)"></div>
-</section>
-
-<!-- Slide #61 -->
-<section class="slide fade oolm_color_2 kenBurns"  data-name="solution">
-  <div class="content">
+<!-- Slide #62 -->
+<section class="slide whiteSlide">
+  <div class="content" style="background:#E6E5E0">
     <div class="container">
       <div class="wrap">
           
         <div class="fix-12-12">
-          <ul class="flex verticalCenter">
-            <li class="col-6-12 left ae-1">
-              <img class="macbook-61 margin-bottom-3" src="assets/i2/_physical_therapy_kid_therapist.jpg" data-action="zoom" width="1200" alt="Macbook Image"/>
-            </li>
-            <li class="col-6-12 right _right">
+          <ul class="grid">
+            <li class="col-6-12 left">
+              <div class="ae-1"><p class="hero margin-bottom-1">Case study</p></div>
+              <h1 class="ae-2">Hear the difference in high quality music</h1>
+              <div class="ae-3"><p>No matter how many times your amazing, absolutely brilliant work is rejected by the client, for whatever dopey, arbitrary reason, there is often another amazing, absolutely brilliant solution possible.</p></div>
               <ul class="flex">
-                <li class="col-2-10">
-                  <div class="ae-3">
-                    <form action="#" autocomplete="off">
-                      <input type="submit" class="button oolm_color_4 ae-5 fromBlur rounded stroke" name="submit" value="בואו נתחיל"/>
-                    </form>
-                  </div>
+                <li class="col-6-12 ae-3">
+                  <h3>Camera</h3>
+                  <p class="small">Scan entire conversations in a chat-like view.</p>
                 </li>
-                <li class="col-8-10">
-                  <h1 class="ae-2">הפתרון שלנו</h1>
-                </li>
-              </ul>
-              <ul class="flex grid-61 later">
                 <li class="col-6-12 ae-4">
-                  <i class="material-icons">fingerprint</i>
-                  <h3>מידע מותאם אישית</h3>
-                  <p class="small">הנגשת המידע בצורה קלה</p>
+                  <h3>Messages</h3>
+                  <p class="small">Quickly swipe messages to your archive or trash.</p>
                 </li>
                 <li class="col-6-12 ae-5">
-                  <i class="material-icons">people_outline</i>
-                  <h3>התאמה ושידוך בין הורים למטפלים</h3>
-                  <p class="small">התאמה על פי המלצות, זמינות והתמחות רלוונטית</p>
+                  <h3>Music Center</h3>
+                  <p class="small">Unforgettable feelings through a quality music.</p>
                 </li>
                 <li class="col-6-12 ae-6">
-                  <i class="material-icons">library_books</i>
-                  <h3>בניה וניהול של תוכנית טיפולים</h3>
-                  <p class="small">תוכנית טיפולים עקבית ומתואמת בין ההורים והמטפלים</p>
-                </li>
-                <li class="col-6-12 ae-7">
-                  <i class="material-icons">attach_money</i>
-                  <h3>ניהול ההוצאות</h3>
-                  <p class="small">בצורה אופטימלית תוך מימוש זכויות לטיפולים והחזרים</p>
+                  <h3>Channels</h3>
+                  <p class="small">Read reviews, compare customer ratings.</p>
                 </li>
               </ul>
+            </li>
+            <li class="col-6-12 left ae-1 fromRight image-62">
+              <img class="image-13-2" src="assets/img/templates/img-13-2.png" alt="Radio Image"/>
             </li>
           </ul>
         </div>
@@ -263,73 +319,26 @@
   </div>
 </section>
 
-<!-- Slide 3 (#32) 
-<section class="slide fade kenBurns fromLeft">
-  <div class="content">
+<!-- Slide #76 -->
+<section class="slide whiteSlide">
+  <div class="content" style="background:#D0DFDE">
     <div class="container">
       <div class="wrap">
-          
+      
         <div class="fix-12-12">
-          <ul class="flex reverse">
+          <ul class="grid">
             <li class="col-6-12 left cell-32">
-              <h1 class="ae-2">אפשר לשפר איכות חיים של ילדנו</h1>
-              <div class="ae-5"><p class="small">משפחה תומכת היא המרכיב הסודי</p></div>
-              <ul class="items-32">
-                <li class="fix-4-12 toLeft text-32">
-                  <h3 class="ae-4">טיפול הטוב ביותר</h3>
-                  <div class="ae-5"><p class="small">יש רק ילד אחד כמו הילד שלך ומגיע לו הטוב ביותר</p></div>
-                </li>
-                <li class="fix-4-12 toLeft text-32">
-                  <h3 class="ae-6">אפשר לעזור</h3>
-                  <div class="ae-7"><p class="small">with many treatments that improve quality of life of your child</p></div>
-                </li>
-              </ul>
-            </li>
-            
-          </ul>
-        </div>
-        
-      </div>
-    </div>
-  </div>
-  <div class="background" style="background-image:url(assets/img/physical_therapy_kid.jpg)"></div>
-
-</section>
--->
-
-
-<!-- Slide 4 (#48) 
-<section class="slide fade kenBurns">
-  <div class="content">
-    <div class="container">
-      <div class="wrap">
-      
-        <div class="fix-10-12 toCenter">
-          <h1 class="huge ae-1">Information is cheap</h1>
-          <div class="ae-2"><p class="hero">It&rsquo;s quicker to hate on a design picking out all the little things that should have been done than to just do something great&nbsp;yourself.</p></div>
-        </div>
-        <div class="fix-12-12">
-          <ul class="flex grid-48 later equal">
-            <li class="col-4-12">
-							<div class="fix-4-12">
-                <i class="material-icons ae-3 fromCenter">fingerprint</i>
-                <h3 class="equalElement ae-4">Meet quick</h3>
-                <div class="ae-5"><p class="small">Do you validate other people’s markup? Yes? You’re an asshole.</p></div>
+              <h1 class="ae-1">Creativity is mastery of simplicity</h1>
+              <div class="ae-2"><p>No matter how many times your amazing, absolutely brilliant work is rejected by the client, for whatever dopey, arbitrary reason, there is often another amazing, absolutely brilliant solution possible.</p></div>
+              <div class="sourceSans popupTrigger ae-4 fromRight" data-popup-id="76">
+                <span class="button play white button-76 crop">
+                  <svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#play"></use></svg>
+                </span>
+                <p class="micro text-76"><span class="uppercase block">Watch video</span><span class="opacity-8">See Slides Framework in action (2:00)</span></p>
               </div>
             </li>
-            <li class="col-4-12">
-							<div class="fix-4-12">
-                <i class="material-icons ae-4 fromCenter">switch_camera</i>
-                <h3 class="equalElement ae-5">Resize picture</h3>
-                <div class="ae-6"><p class="small">No, Watson, this was not done by accident, but by design.</p></div>
-              </div>
-            </li>
-            <li class="col-4-12">
-							<div class="fix-4-12">  
-                <i class="material-icons ae-5 fromCenter">notifications_off</i>
-                <h3 class="equalElement ae-6">Notifications</h3>
-                <div class="ae-7"><p class="small">Now that we can do anything, what should we do?</p></div>
-              </div>
+            <li class="col-6-12 left ae-1 fromRight">
+              <img class="iphone-76 image-13-3" src="assets/img/templates/img-13-3.png" alt="Headphones Image"/>
             </li>
           </ul>
         </div>
@@ -337,118 +346,145 @@
       </div>
     </div>
   </div>
-  <div class="background" style="background-image:url(assets/img/img-48.jpg)"></div>
 </section>
--->
-<!-- Slide 6 (#74) 
-<section class="slide fade kenBurns">
+
+<!-- Popup Video -->
+<div class="popup autoplay" data-popup-id="76">
+  <div class="close"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close"></use></svg></div>
   <div class="content">
+    <div class="container">
+      <div class="wrap">
+        <div class="fix-10-12">
+          <div class="embedVideo popupContent">
+            <iframe src="https://player.vimeo.com/video/101231747?color=ff0179&portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Slide #77 -->
+<section class="slide whiteSlide autoHeight">
+  <div class="content" style="background:#F5F5F5">
     <div class="container">
       <div class="wrap">
       
         <div class="fix-10-12 toCenter">
-          <h1 class="ae-1">Simply Complicated</h1>
-          <div class="ae-2"><p>Creativity often consists of merely turning up what is already there. Did you know that right and left shoes were thought up only a little more than a century ago?</p></div>
+          <h1 class="ae-1">Great design should be shared</h1>
+          <div class="ae-2 fix-9-12"><p>A common mistake that people make when trying to design something completely foolproof is to underestimate the ingenuity of complete fools.</p></div>
         </div>
         <div class="fix-12-12">  
-          <ul class="grid grid-74 later equal left margin-top-5">
-            <li class="col-3-12 col-tablet-1-2 col-phablet-1-1 ae-3 fromCenter">
-              <a href="#" class="box-74">
-                <div class="thumbnail-74">
-                  <img src="assets/img/inner-74-1.jpg" class="wide" alt="Thumbnail"/>
+          <ul class="grid grid-77 later equal left">
+            <li class="col-3-12">
+              <a href="#" class="box-77 ae-3 fromCenter">
+                <div class="thumbnail-77 video popupTrigger" data-popup-id="77">
+                  <img src="assets/img/inner-77-1.jpg" alt="Picture" class="wide"/>
                 </div>
-                <div class="name-74 equalElement table wide">
-                  <div class="cell">
-                    <h3 class="big">Inspiration</h3>
-                    <div class="description-74">Creativity is allowing yourself to make mistakes.</div>
+                <div class="details-77 equalElement">
+                  <div class="table wide">
+                    <div class="cell">
+                      <div class="title-77">Montana</div>
+                      <div class="description-77">Without music, life would be a mistake.</div>
+                      <div class="author-77">
+                        <img width="30" class="avatar-77 fromCenter" src="assets/img/avatar-1.jpg" alt="Paul Rand">
+                        <div class="name-77">Paul Rand</div>
+                        <p class="specs-77">Art Director, Designer</p>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </a>
             </li>
-            <li class="col-3-12 col-tablet-1-2 col-phablet-1-1 ae-4 fromCenter">
-              <a href="#" class="box-74">
-                <div class="thumbnail-74">
-                  <img src="assets/img/inner-74-2.jpg" class="wide" alt="Thumbnail"/>
+            <li class="col-3-12">
+              <a href="#" class="box-77 ae-4 fromCenter">
+                <div class="thumbnail-77">
+                  <img src="assets/img/inner-77-2.jpg" alt="Picture" class="wide"/>
                 </div>
-                <div class="name-74 equalElement table wide">
-                  <div class="cell">
-                    <h3 class="big">The Moment</h3>
-                    <div class="description-74">A person tends to critique a design in one of several ways.</div>
+                <div class="details-77 equalElement">
+                  <div class="table wide">
+                    <div class="cell">
+                      <div class="title-77">Travel Diary</div>
+                      <div class="description-77">One good thing about music, when it hits you.</div>
+                      <div class="author-77">
+                        <img width="30" class="avatar-77 fromCenter" src="assets/img/avatar-2.jpg" alt="Sarah Colts">
+                        <div class="name-77">Sarah Colts</div>
+                        <p class="specs-77">UX Designer, Developer</p>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </a>
             </li>
-            <li class="col-3-12 col-tablet-1-2 col-phablet-1-1 ae-5 fromCenter">
-              <a href="#" class="box-74">
-                <div class="thumbnail-74">
-                  <img src="assets/img/inner-74-3.jpg" class="wide" alt="Thumbnail"/>
+            <li class="col-3-12">
+              <a href="#" class="box-77 ae-5 fromCenter">
+                <div class="thumbnail-77">
+                  <img src="assets/img/inner-77-3.jpg" alt="Picture" class="wide"/>
                 </div>
-                <div class="name-74 equalElement table wide">
-                  <div class="cell">
-                    <h3 class="big">Journey</h3>
-                    <div class="description-74">More designers should share space, share resources.</div>
+                <div class="details-77 equalElement">
+                  <div class="table wide">
+                    <div class="cell">
+                      <div class="title-77">The Journey</div>
+                      <div class="description-77">None but ourselves can free our minds.</div>
+                      <div class="author-77">
+                        <img width="30" class="avatar-77 fromCenter" src="assets/img/avatar-1.jpg" alt="Jack Simmerson">
+                        <div class="name-77">Jack Simmerson</div>
+                        <p class="specs-77">Art Director, Designer</p>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </a>
             </li>
-            <li class="col-3-12 col-tablet-1-2 col-phablet-1-1 ae-5 fromCenter">
-              <a href="#" class="box-74">
-                <div class="thumbnail-74">
-                  <img src="assets/img/inner-74-4.jpg" class="wide" alt="Thumbnail"/>
+            <li class="col-3-12">
+              <a href="#" class="box-77 ae-6 fromCenter">
+                <div class="thumbnail-77">
+                  <img src="assets/img/inner-77-4.jpg" alt="Picture" class="wide"/>
                 </div>
-                <div class="name-74 equalElement table wide">
-                  <div class="cell">
-                    <h3 class="big">Colorado</h3>
-                    <div class="description-74">An essential aspect of creativity is not being afraid to fail.</div>
+                <div class="details-77 equalElement">
+                  <div class="table wide">
+                    <div class="cell">
+                      <div class="title-77">California</div>
+                      <div class="description-77">Some people have lives; some people have music.</div>
+                      <div class="author-77">
+                        <img width="30" class="avatar-77 fromCenter" src="assets/img/avatar-2.jpg" alt="Yokko Laurens">
+                        <div class="name-77">Yokko Laurens</div>
+                        <p class="specs-77">UI Designer</p>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </a>
             </li>
           </ul>
         </div>
-                
-      </div>
-    </div>
-  </div>
-  <div class="background" style="background-image:url(assets/img/img-74.jpg)"></div>
-</section>
--->
-<!-- Slide 7 (#38) 
-<section class="slide fade kenBurns">
-  <div class="content">
-    <div class="container">
-      <div class="wrap">
         
-        <div class="fix-10-12">
-          <div class="fix-4-12">
-            <div class="svgContainer svg-38">
-              <svg class="scale ae-1"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#logo"></use></svg>
-            </div>
-          </div>
-          <div class="ae-3"><p class="hero">Don&rsquo;t stare at a blank page for too long, be bold, and make the first incisive stroke. The rest will come&nbsp;naturally.</p></div>
-          <div>
-            <form action="#" autocomplete="off" class="ae-4 margin-top-4">
-              <input type="email" class="flat input-38" name="email" placeholder="Email address"/>
-              <input type="submit" class="button pink" name="submit" value="Get updates"/>
-            </form>
-            <p class="small margin-top-3 block ae-5">
-              Already have an invite code?<br>
-              <a href="#"><b>Sign In</b></a>
-            </p>
-          </div>
+        <div class="hr 1px" data-color="#ccc"></div>
+        
+        <div class="fix-12-12">
+          <div class="ae-3"><p>Start now and get free bonus on account</p></div>
+          <form action="#" autocomplete="off">
+            <input type="email" class="ae-4 fromCenter" name="user-email" placeholder="Email" val=""/>
+            <input type="password" class="ae-5 fromCenter" name="user-password" placeholder="Password" val=""/>
+            <input type="password" class="ae-6 fromCenter" name="confirm-password" placeholder="Confirm the password" val=""/>
+            <input type="submit" class="button pink ae-7 fromCenter" name="name" placeholder="Name" value="Start free trial"/>
+          </form>
         </div>
-             
+        
       </div>
     </div>
   </div>
-  <div class="background" style="background-image:url(assets/img/img-38.jpg)"></div>
 </section>
--->
 
-<!-- Panel Bottom #22 -->
-<nav class="panel bottom">
-  <div class="sections">
-    <div class="center"><span class="nextSlide"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#arrow-down"></use></svg></span></div>
+<!-- Panel Bottom #18 -->
+<nav class="panel bottom forceMobileView">
+  <div class="sections desktop">
+    <div class="left"><p class="micro cropBottom">Mars is a trademark owned by <strong>Loft Industry</strong></p></div>
+    <div class="right"><p class="micro cropBottom">Crafted with love at <strong>Designmodo</strong></p></div>
+  </div>
+  <div class="sections compact hidden">
+    <div class="left"><p class="micro cropBottom"><strong>Loft Industry</strong></p></div>
+    <div class="right"> </div>
   </div>
 </nav>
 

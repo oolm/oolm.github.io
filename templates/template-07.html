@@ -2,24 +2,27 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
+		<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=no">
 		<meta name="apple-mobile-web-app-capable" content="yes" />
 
 		<!-- Page Title -->
-		<title>Template Generator</title>
+		<title>Template 7</title>
 
 		<!-- Fonts and Material Icons -->
-		<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700|Roboto|Material+Icons" rel="stylesheet" type="text/css"/>
+		<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700|Material+Icons" rel="stylesheet" type="text/css"/>
 		
+
+		<!-- Base Path to Scripts -->
+		<base href="../">
 
 		<!-- Styles -->
 		<link href="css/slides.css" rel="stylesheet" type="text/css">
 
 		<!-- Custom Styles -->
-    <link href="css/custom.css" rel="stylesheet" type="text/css"
+		<!--link href="css/custom.css" rel="stylesheet" type="text/css"-->
 
 		<!-- Scripts -->
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+		<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
 		<script src="js/plugins.js" type="text/javascript" name="plugins"></script>
 		<script src="js/slides.js" type="text/javascript" name="main-scripts"></script>
 
@@ -27,15 +30,15 @@
 		<!--script src="js/custom.js" type="text/javascript" name="custom-scripts"></script-->
 		 
 	</head>
-	<body class="slides smooth simplifiedMobile smoothScroll animated">
+	<body class="slides fast animated">
 		
 
 <!-- SVG Library -->
 <svg xmlns="http://www.w3.org/2000/svg" style="display:none">
   
-  <symbol id="logo" viewBox="0 0 106 31"><title>Brand Name</title><path d="M17.413 14.04c-.56-5.84-5.6-7-8.52-7-4.6 0-8.6 2.92-8.6 7.52 0 3 2.4 4.88 5.28 5.8 4.24 1.64 5.88 1.84 5.88 3.36 0 1.08-1.2 1.72-2.32 1.72-.28 0-2.24 0-2.52-2.04h-6.6c.6 5.84 5.68 7.36 9.04 7.36 4.92 0 9.04-2.88 9.04-7.76 0-4.8-4-5.92-7.76-6.96-1.76-.52-3.4-1.2-3.4-2.2 0-.6.48-1.48 1.88-1.48 1.96 0 2.04 1.2 2.08 1.68h6.52zm2.222 15.96h6.64v-29.6h-6.64v29.6zm9.662-24.56h6.64v-5.04h-6.64v5.04zm0 24.56h6.64v-22.2h-6.64v22.2zm32.782-29.6h-6.64v9.28c-.72-.72-2.6-2.64-6.52-2.64-5.64 0-11 4.28-11 11.8 0 6.68 4.4 11.88 11.12 11.88 4.48 0 6.08-2.2 6.72-3.12v2.4h6.32v-29.6zm-17.52 18.4c0-2.56 1.8-5.56 5.64-5.56 1.56 0 2.96.56 3.96 1.56 1 .96 1.64 2.32 1.64 3.92.08 1.64-.52 3.08-1.56 4.12s-2.52 1.68-4.12 1.68c-3.12 0-5.56-2.28-5.56-5.68v-.04zm42.502 2.4c.52-4.08-.32-7.64-3.12-10.64-2.08-2.2-5-3.52-8.4-3.52-6.76 0-11.64 5.72-11.64 11.92 0 6.6 5.4 11.76 11.76 11.76 2.28 0 4.48-.68 6.32-2 1.88-1.28 3.44-3.2 4.52-5.68h-6.8c-.8 1.16-1.92 2.08-4.04 2.08-2.6 0-4.84-1.56-5.12-3.92h16.52zm-16.44-5.04c.16-1.04 1.52-3.52 4.96-3.52s4.8 2.48 4.96 3.52h-9.92zm34.502-2.12c-.56-5.84-5.6-7-8.52-7-4.6 0-8.6 2.92-8.6 7.52 0 3 2.4 4.88 5.28 5.8 4.24 1.64 5.88 1.84 5.88 3.36 0 1.08-1.2 1.72-2.32 1.72-.28 0-2.24 0-2.52-2.04h-6.6c.6 5.84 5.68 7.36 9.04 7.36 4.92 0 9.04-2.88 9.04-7.76 0-4.8-4-5.92-7.76-6.96-1.76-.52-3.4-1.2-3.4-2.2 0-.6.48-1.48 1.88-1.48 1.96 0 2.04 1.2 2.08 1.68h6.52z"/></symbol>
+  <symbol id="logo" viewBox="0 0 106 31"><path d="M17.413 14.04c-.56-5.84-5.6-7-8.52-7-4.6 0-8.6 2.92-8.6 7.52 0 3 2.4 4.88 5.28 5.8 4.24 1.64 5.88 1.84 5.88 3.36 0 1.08-1.2 1.72-2.32 1.72-.28 0-2.24 0-2.52-2.04h-6.6c.6 5.84 5.68 7.36 9.04 7.36 4.92 0 9.04-2.88 9.04-7.76 0-4.8-4-5.92-7.76-6.96-1.76-.52-3.4-1.2-3.4-2.2 0-.6.48-1.48 1.88-1.48 1.96 0 2.04 1.2 2.08 1.68h6.52zm2.222 15.96h6.64v-29.6h-6.64v29.6zm9.662-24.56h6.64v-5.04h-6.64v5.04zm0 24.56h6.64v-22.2h-6.64v22.2zm32.782-29.6h-6.64v9.28c-.72-.72-2.6-2.64-6.52-2.64-5.64 0-11 4.28-11 11.8 0 6.68 4.4 11.88 11.12 11.88 4.48 0 6.08-2.2 6.72-3.12v2.4h6.32v-29.6zm-17.52 18.4c0-2.56 1.8-5.56 5.64-5.56 1.56 0 2.96.56 3.96 1.56 1 .96 1.64 2.32 1.64 3.92.08 1.64-.52 3.08-1.56 4.12s-2.52 1.68-4.12 1.68c-3.12 0-5.56-2.28-5.56-5.68v-.04zm42.502 2.4c.52-4.08-.32-7.64-3.12-10.64-2.08-2.2-5-3.52-8.4-3.52-6.76 0-11.64 5.72-11.64 11.92 0 6.6 5.4 11.76 11.76 11.76 2.28 0 4.48-.68 6.32-2 1.88-1.28 3.44-3.2 4.52-5.68h-6.8c-.8 1.16-1.92 2.08-4.04 2.08-2.6 0-4.84-1.56-5.12-3.92h16.52zm-16.44-5.04c.16-1.04 1.52-3.52 4.96-3.52s4.8 2.48 4.96 3.52h-9.92zm34.502-2.12c-.56-5.84-5.6-7-8.52-7-4.6 0-8.6 2.92-8.6 7.52 0 3 2.4 4.88 5.28 5.8 4.24 1.64 5.88 1.84 5.88 3.36 0 1.08-1.2 1.72-2.32 1.72-.28 0-2.24 0-2.52-2.04h-6.6c.6 5.84 5.68 7.36 9.04 7.36 4.92 0 9.04-2.88 9.04-7.76 0-4.8-4-5.92-7.76-6.96-1.76-.52-3.4-1.2-3.4-2.2 0-.6.48-1.48 1.88-1.48 1.96 0 2.04 1.2 2.08 1.68h6.52z"/></symbol>
   
-  <symbol id="logo-icon" viewBox="0 0 50 41"><title>Brand Name</title><path d="M4,12h42c2.2,0,4,1.8,4,4v21c0,2.2-1.8,4-4,4H4c-2.2,0-4-1.8-4-4V16C0,13.8,1.8,12,4,12z"/><path opacity="0.6" d="M45.5,9h-41C3.7,9,3,8.3,3,7.5v0C3,6.7,3.7,6,4.5,6h41C46.3,6,47,6.7,47,7.5v0C47,8.3,46.3,9,45.5,9z"/><path opacity="0.4" d="M7.5,0h35C43.3,0,44,0.7,44,1.5v0C44,2.3,43.3,3,42.5,3h-35C6.7,3,6,2.3,6,1.5v0C6,0.7,6.7,0,7.5,0z"/></symbol>
+  <symbol id="logo-icon" viewBox="0 0 50 41"><path d="M4,12h42c2.2,0,4,1.8,4,4v21c0,2.2-1.8,4-4,4H4c-2.2,0-4-1.8-4-4V16C0,13.8,1.8,12,4,12z"/><path opacity="0.6" d="M45.5,9h-41C3.7,9,3,8.3,3,7.5v0C3,6.7,3.7,6,4.5,6h41C46.3,6,47,6.7,47,7.5v0C47,8.3,46.3,9,45.5,9z"/><path opacity="0.4" d="M7.5,0h35C43.3,0,44,0.7,44,1.5v0C44,2.3,43.3,3,42.5,3h-35C6.7,3,6,2.3,6,1.5v0C6,0.7,6.7,0,7.5,0z"/></symbol>
   
   <symbol id="close" viewBox="0 0 30 30"><path d="M15 0c-8.3 0-15 6.7-15 15s6.7 15 15 15 15-6.7 15-15-6.7-15-15-15zm5.7 19.3c.4.4.4 1 0 1.4-.2.2-.4.3-.7.3s-.5-.1-.7-.3l-4.3-4.3-4.3 4.3c-.2.2-.4.3-.7.3s-.5-.1-.7-.3c-.4-.4-.4-1 0-1.4l4.3-4.3-4.3-4.3c-.4-.4-.4-1 0-1.4s1-.4 1.4 0l4.3 4.3 4.3-4.3c.4-.4 1-.4 1.4 0s.4 1 0 1.4l-4.3 4.3 4.3 4.3z"/></symbol>
   
@@ -102,158 +105,96 @@
 
 </svg>
 
-<!-- Navigation -->
-<nav class="side">
-  <div class="navigation">
-    <ul></ul>
-  </div>
-</nav>
-
-<!-- Panel Top #10 -->
-<nav class="panel top forceMobileView oolm_color_1 hideOnScroll">
+<!-- Panel Top #22 -->
+<nav class="panel top forceMobileView">
   <div class="sections desktop">
-    <div class="left">
-      <ul class="menu uppercase crop">
-        <li><a href="#home"><img src="assets/i2/_logo_tr_50px.png" alt="Only One Like Me" 
-            height="50" class="_logo"></a></li>  
-        <li><a href="#">English</a></li>
-        <li><a href="http://twitter.com/designmodo" target="_blank"><svg class="twitterIcon"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#twitter"></use></svg></a></li>
-      </ul>
-    </div>
+    <div class="left"><a href="#"><svg style="width:50px;height:41px"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#logo-icon"></use></svg></a></div>
     <div class="center">
-      <ul class="menu uppercase crop">
-        <li><a href="#">צרו קשר</a></li>
-        <li><a href="#">מי אנחנו</a></li>
-        <li><a href="#solution">הפתרון שלנו</a></li>
-    
+      <ul class="menu">
+        <li><a href="#">Tour</a></li>
+        <li><a href="#">Upgrade</a></li>
+        <li><a href="#">Help</a></li>
+        <li><a href="#">Explore</a></li>
       </ul>
     </div>
-    <div class="right"><a class="button menuButton round" href="#">אזור אישי</a></div>
+    <div class="right"> <a class="button menuButton round" href="#">Profile</a> </div>
   </div>
-  
   <div class="sections compact hidden">
-    <div class="left">
-      <!--<a href="#" title="Brand Name"><svg style="width:107px;height:31px"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#logo"></use></svg></a>-->
-      <a href="#"><img src="assets/i2/_logo_tr_50px.png" alt="Only One Like Me" 
-            height="50" class="_logo"></a>
-    </div>
+    <div class="left"><a href="#"><svg style="width:50px;height:41px"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#logo-icon"></use></svg></a></div>
     <div class="right"><span class="button actionButton sidebarTrigger" data-sidebar-id="1"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#menu"></use></svg></span></div>
   </div>
 </nav>
 
 <!-- Sidebar -->
-<nav class="sidebar oolm_color_1" data-sidebar-id="1">
+<nav class="sidebar deepPurple" data-sidebar-id="1">
   <div class="close"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close"></use></svg></div>
   <div class="content">
-    <!--<a href="#" title="Brand Name" class="logo"><svg width="120" height="50"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#logo"></use></svg></a>-->
-    <ul class="mainMenu uppercase _right">
-      <li><a href="#solution">הפתרון שלנו</a></li>
-      <li><a href="#">מי אנחנו</a></li>
-      <li><a href="#">צרו קשר</a></li>
+    <a href="#" class="logo"><svg width="120" height="50"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#logo"></use></svg></a>
+    <ul class="mainMenu uppercase">
+      <li><a href="#">Tour</a></li>
+      <li><a href="#">Upgrade</a></li>
+      <li><a href="#">Help</a></li>
+      <li><a href="#">Explore</a></li>
     </ul>
     <ul class="subMenu">
-      <li><a href="#">English</a></li>
+      <li><a href="#">About Us</a></li>
+      <li><a href="#">Blog</a></li>
+      <li><a href="#">Press & Media</a></li>
       <li><a href="#">Terms of Use</a></li>
       <li><a href="#">Privacy Policy</a></li>
+      <li><a href="#">Contact Us</a></li>
     </ul>
     <ul class="social">
       <li><a href="#"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#twitter"></use></svg></a></li>
       <li><a href="#"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#facebook"></use></svg></a></li>
+      <li><a href="#"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#googlePlus"></use></svg></a></li>
+      <li><a href="#"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#pinterest"></use></svg></a></li>
     </ul>
   </div>
 </nav>
 
-<!-- Slide 1 (#13) -->
-<section class="slide autoHeight fade kenBurns zoomout oolm_color_2" data-name="home">
+<!-- Template #07 -->
+<style>
+  .green {
+    background: #31CC9A !important;
+  }
+</style>
+
+<!-- Slide #19 -->
+<section class="slide fade kenBurns">
   <div class="content">
     <div class="container">
       <div class="wrap">
+      
         <div class="fix-10-12">
-          <div class="ae-2 crop">
-            <h1 class="huge">הורים ומטפלים נפגשים</h1>
-          </div>
-          <div class="ae-2">
-            <h2>בואו נמצא לילדכם את הטיפול הטוב ביותר</h2>
-          </div>
-          <div class="ae-2">
-            <form action="#" autocomplete="off">
-              <input type="submit" class="button oolm_color_4 ae-5 fromBlur rounded" name="submit" value="אני רוצה להתחיל"/>
-            </form>
-          </div>
+          <h1 class="big ae-1">Heart of the image</h1>
+          <div class="ae-2"><p class="hero">To make my meal in a box taste better, I decided to tweak the logo, rather than the&nbsp;ingredients.</p></div>
+          <a class="button green ae-5 fromCenter">Start free trial</a><a class="button white ae-6 fromCenter">Learn more</a>
         </div>
-                
+      
       </div>
     </div>
   </div>
-  <div class="background" style="background-image:url(assets/i2/_kid_dreams.jpg)"></div>
+  <div class="background" style="background-image:url(assets/img/templates/img-7-1.jpg)"></div>
 </section>
 
-<!-- Slide 2 (#40) -->
-<section class="slide fade kenBurns oolm_color_3" data-name="why">
+<!-- Slide #29 -->
+<section class="slide fade kenBurns">
   <div class="content">
     <div class="container">
       <div class="wrap">
-          <div class="ae-2">
-            <h1 class="ae-2 crop _right">אין תרופת קסם שיכולה לרפא את כל הבעיות והאתגרים של ילדינו</h1>
-          </div>
-          <div class="ae-2">
-            <h2>אך ישנם טיפולים רבים אשר יכולים לשפר את איכות חייהם</h2>
-          </div>
-          <form action="#" autocomplete="off">
-            <input type="submit" class="button oolm_color_5 ae-5 fromBlur rounded stroke" name="submit" value="בואו נמצא מטפלים"/>
-          </form>
-      </div>
-    </div>
-  </div>
-  <div class="background" style="background-image:url(assets/i2/_mother_hugs_kid_father_therapist.jpg)"></div>
-</section>
-
-<!-- Slide #61 -->
-<section class="slide fade oolm_color_2 kenBurns"  data-name="solution">
-  <div class="content">
-    <div class="container">
-      <div class="wrap">
-          
+      
         <div class="fix-12-12">
           <ul class="flex verticalCenter">
-            <li class="col-6-12 left ae-1">
-              <img class="macbook-61 margin-bottom-3" src="assets/i2/_physical_therapy_kid_therapist.jpg" data-action="zoom" width="1200" alt="Macbook Image"/>
+            <li class="col-5-12 ae-1 cell-29">
+              <img src="assets/img/templates/iphone-7.png" style="margin:-20% 0 -100%;" class="shiftImage iphone-29" alt="iPhone Thumbnail" data-action="zoom"/>
             </li>
-            <li class="col-6-12 right _right">
-              <ul class="flex">
-                <li class="col-2-10">
-                  <div class="ae-3">
-                    <form action="#" autocomplete="off">
-                      <input type="submit" class="button oolm_color_4 ae-5 fromBlur rounded stroke" name="submit" value="בואו נתחיל"/>
-                    </form>
-                  </div>
-                </li>
-                <li class="col-8-10">
-                  <h1 class="ae-2">הפתרון שלנו</h1>
-                </li>
-              </ul>
-              <ul class="flex grid-61 later">
-                <li class="col-6-12 ae-4">
-                  <i class="material-icons">fingerprint</i>
-                  <h3>מידע מותאם אישית</h3>
-                  <p class="small">הנגשת המידע בצורה קלה</p>
-                </li>
-                <li class="col-6-12 ae-5">
-                  <i class="material-icons">people_outline</i>
-                  <h3>התאמה ושידוך בין הורים למטפלים</h3>
-                  <p class="small">התאמה על פי המלצות, זמינות והתמחות רלוונטית</p>
-                </li>
-                <li class="col-6-12 ae-6">
-                  <i class="material-icons">library_books</i>
-                  <h3>בניה וניהול של תוכנית טיפולים</h3>
-                  <p class="small">תוכנית טיפולים עקבית ומתואמת בין ההורים והמטפלים</p>
-                </li>
-                <li class="col-6-12 ae-7">
-                  <i class="material-icons">attach_money</i>
-                  <h3>ניהול ההוצאות</h3>
-                  <p class="small">בצורה אופטימלית תוך מימוש זכויות לטיפולים והחזרים</p>
-                </li>
-              </ul>
+            <li class="col-7-12 left">
+              <h1 class="ae-1 fromLeft">Every great design begins with an even better story</h1>
+              <div class="ae-2 fromLeft">
+                <p>I don't start with a design objective, I start with a communication objective. I feel my project is successful if it communicates what it is supposed to communicate.</p>
+              </div>
+              <a class="button green ae-3 fromCenter crop">Start free trial</a>
             </li>
           </ul>
         </div>
@@ -261,196 +202,104 @@
       </div>
     </div>
   </div>
+  <div class="background" style="background-image:url(assets/img/templates/img-7-2.jpg)"></div>
 </section>
 
-<!-- Slide 3 (#32) 
-<section class="slide fade kenBurns fromLeft">
+<!-- Slide #26 -->
+<section class="slide fade kenBurns">
   <div class="content">
     <div class="container">
       <div class="wrap">
-          
+
         <div class="fix-12-12">
-          <ul class="flex reverse">
-            <li class="col-6-12 left cell-32">
-              <h1 class="ae-2">אפשר לשפר איכות חיים של ילדנו</h1>
-              <div class="ae-5"><p class="small">משפחה תומכת היא המרכיב הסודי</p></div>
-              <ul class="items-32">
-                <li class="fix-4-12 toLeft text-32">
-                  <h3 class="ae-4">טיפול הטוב ביותר</h3>
-                  <div class="ae-5"><p class="small">יש רק ילד אחד כמו הילד שלך ומגיע לו הטוב ביותר</p></div>
-                </li>
-                <li class="fix-4-12 toLeft text-32">
-                  <h3 class="ae-6">אפשר לעזור</h3>
-                  <div class="ae-7"><p class="small">with many treatments that improve quality of life of your child</p></div>
-                </li>
-              </ul>
+          <ul class="flex reverse verticalCenter">
+            <li class="col-7-12 left cell-26">
+              <h1 class="ae-1 fromLeft">How we work</h1>
+              <div class="ae-2 fromLeft">
+                <p>An electrician isn't an opinion former, but a graphic designer is. My argument is that all graphic designers hold high levels of responsibility in&nbsp;society.</p>
+              </div>
+              <div class="relative">
+                <img src="assets/img/app-logo-1.png" class="ae-3 fromCenter app-26" alt="app"/>
+                <div class="text-26">
+                  <h3 class="ae-3 fromRight">Ember for Apple Watch</h3>
+                  <div class="ae-5 fromRight">
+                    <p class="small">People don&rsquo;t use a product because of the great&nbsp;design.</p>
+                  </div>
+                </div>
+              </div>
             </li>
-            
+            <li class="col-5-12">
+              <div class="fix-4-12 center">
+                <ul class="slider clickable ae-1 fromAbove" data-slider-id="26">
+                  <li class="selected"><img src="assets/img/watch-26-1.png" class="wide" alt="Apple Watch Thumbnail"/></li>
+                  <li><img src="assets/img/watch-26-2.png" class="wide" alt="Apple Watch Thumbnail"/></li>
+                  <li><img src="assets/img/watch-26-3.png" class="wide" alt="Apple Watch Thumbnail"/></li>
+                  <li><img src="assets/img/watch-26-4.png" class="wide" alt="Apple Watch Thumbnail"/></li>
+                </ul>
+                <ul class="controller dots ae-3 fromCenter" data-slider-id="26">
+                  <li class="dot selected"></li>
+                  <li class="dot"></li>
+                  <li class="dot"></li>
+                  <li class="dot"></li>
+                </ul>
+              </div>
+            </li>
           </ul>
         </div>
         
       </div>
     </div>
   </div>
-  <div class="background" style="background-image:url(assets/img/physical_therapy_kid.jpg)"></div>
-
+  <div class="background" style="background-image:url(assets/img/templates/img-7-3.jpg)"></div>
 </section>
--->
 
-
-<!-- Slide 4 (#48) 
+<!-- Slide #35 -->
 <section class="slide fade kenBurns">
   <div class="content">
     <div class="container">
-      <div class="wrap">
-      
+      <div class="wrap top">
+
         <div class="fix-10-12 toCenter">
-          <h1 class="huge ae-1">Information is cheap</h1>
-          <div class="ae-2"><p class="hero">It&rsquo;s quicker to hate on a design picking out all the little things that should have been done than to just do something great&nbsp;yourself.</p></div>
+          <img class="margin-bottom-1 ae-1 fromCenter" src="assets/img/icon-35.png" width="70"/>
+          <div class="ae-2"><p class="hero">Components</p></div>
+          <h1 class="ae-3">Creativity is to think more efficiently</h1>
+          <div class="ae-4"><p>Take a walk. Dance a jig. Get some sun. Don&rsquo;t take yourself to serious. Cook something ethnic. Play the 3 chords you know on guitar. Go get&nbsp;coffee.</p></div>
         </div>
-        <div class="fix-12-12">
-          <ul class="flex grid-48 later equal">
-            <li class="col-4-12">
-							<div class="fix-4-12">
-                <i class="material-icons ae-3 fromCenter">fingerprint</i>
-                <h3 class="equalElement ae-4">Meet quick</h3>
-                <div class="ae-5"><p class="small">Do you validate other people’s markup? Yes? You’re an asshole.</p></div>
-              </div>
-            </li>
-            <li class="col-4-12">
-							<div class="fix-4-12">
-                <i class="material-icons ae-4 fromCenter">switch_camera</i>
-                <h3 class="equalElement ae-5">Resize picture</h3>
-                <div class="ae-6"><p class="small">No, Watson, this was not done by accident, but by design.</p></div>
-              </div>
-            </li>
-            <li class="col-4-12">
-							<div class="fix-4-12">  
-                <i class="material-icons ae-5 fromCenter">notifications_off</i>
-                <h3 class="equalElement ae-6">Notifications</h3>
-                <div class="ae-7"><p class="small">Now that we can do anything, what should we do?</p></div>
-              </div>
-            </li>
-          </ul>
+        <div class="fix-12-12 ae-5">
+          <img class="iphone-35 margin-top-1" src="assets/img/templates/iphones-7.png" data-action="zoom" width="728" alt="iPhone App"/>
         </div>
         
       </div>
     </div>
   </div>
-  <div class="background" style="background-image:url(assets/img/img-48.jpg)"></div>
+  <div class="background" style="background-image:url(assets/img/templates/img-7-4.jpg)"></div>
 </section>
--->
-<!-- Slide 6 (#74) 
-<section class="slide fade kenBurns">
-  <div class="content">
-    <div class="container">
-      <div class="wrap">
-      
-        <div class="fix-10-12 toCenter">
-          <h1 class="ae-1">Simply Complicated</h1>
-          <div class="ae-2"><p>Creativity often consists of merely turning up what is already there. Did you know that right and left shoes were thought up only a little more than a century ago?</p></div>
-        </div>
-        <div class="fix-12-12">  
-          <ul class="grid grid-74 later equal left margin-top-5">
-            <li class="col-3-12 col-tablet-1-2 col-phablet-1-1 ae-3 fromCenter">
-              <a href="#" class="box-74">
-                <div class="thumbnail-74">
-                  <img src="assets/img/inner-74-1.jpg" class="wide" alt="Thumbnail"/>
-                </div>
-                <div class="name-74 equalElement table wide">
-                  <div class="cell">
-                    <h3 class="big">Inspiration</h3>
-                    <div class="description-74">Creativity is allowing yourself to make mistakes.</div>
-                  </div>
-                </div>
-              </a>
-            </li>
-            <li class="col-3-12 col-tablet-1-2 col-phablet-1-1 ae-4 fromCenter">
-              <a href="#" class="box-74">
-                <div class="thumbnail-74">
-                  <img src="assets/img/inner-74-2.jpg" class="wide" alt="Thumbnail"/>
-                </div>
-                <div class="name-74 equalElement table wide">
-                  <div class="cell">
-                    <h3 class="big">The Moment</h3>
-                    <div class="description-74">A person tends to critique a design in one of several ways.</div>
-                  </div>
-                </div>
-              </a>
-            </li>
-            <li class="col-3-12 col-tablet-1-2 col-phablet-1-1 ae-5 fromCenter">
-              <a href="#" class="box-74">
-                <div class="thumbnail-74">
-                  <img src="assets/img/inner-74-3.jpg" class="wide" alt="Thumbnail"/>
-                </div>
-                <div class="name-74 equalElement table wide">
-                  <div class="cell">
-                    <h3 class="big">Journey</h3>
-                    <div class="description-74">More designers should share space, share resources.</div>
-                  </div>
-                </div>
-              </a>
-            </li>
-            <li class="col-3-12 col-tablet-1-2 col-phablet-1-1 ae-5 fromCenter">
-              <a href="#" class="box-74">
-                <div class="thumbnail-74">
-                  <img src="assets/img/inner-74-4.jpg" class="wide" alt="Thumbnail"/>
-                </div>
-                <div class="name-74 equalElement table wide">
-                  <div class="cell">
-                    <h3 class="big">Colorado</h3>
-                    <div class="description-74">An essential aspect of creativity is not being afraid to fail.</div>
-                  </div>
-                </div>
-              </a>
-            </li>
-          </ul>
-        </div>
-                
-      </div>
-    </div>
-  </div>
-  <div class="background" style="background-image:url(assets/img/img-74.jpg)"></div>
-</section>
--->
-<!-- Slide 7 (#38) 
-<section class="slide fade kenBurns">
-  <div class="content">
-    <div class="container">
-      <div class="wrap">
-        
-        <div class="fix-10-12">
-          <div class="fix-4-12">
-            <div class="svgContainer svg-38">
-              <svg class="scale ae-1"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#logo"></use></svg>
-            </div>
-          </div>
-          <div class="ae-3"><p class="hero">Don&rsquo;t stare at a blank page for too long, be bold, and make the first incisive stroke. The rest will come&nbsp;naturally.</p></div>
-          <div>
-            <form action="#" autocomplete="off" class="ae-4 margin-top-4">
-              <input type="email" class="flat input-38" name="email" placeholder="Email address"/>
-              <input type="submit" class="button pink" name="submit" value="Get updates"/>
-            </form>
-            <p class="small margin-top-3 block ae-5">
-              Already have an invite code?<br>
-              <a href="#"><b>Sign In</b></a>
-            </p>
-          </div>
-        </div>
-             
-      </div>
-    </div>
-  </div>
-  <div class="background" style="background-image:url(assets/img/img-38.jpg)"></div>
-</section>
--->
 
-<!-- Panel Bottom #22 -->
-<nav class="panel bottom">
-  <div class="sections">
+<!-- Panel Bottom #18 -->
+<nav class="panel bottom forceMobileView">
+  <div class="sections desktop">
+    <div class="left">Built with<a href="#"><svg style="width: 68px; height: 20px; margin: 0 0 -1px 8px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#logo"></use></svg></a></div>
     <div class="center"><span class="nextSlide"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#arrow-down"></use></svg></span></div>
+    <div class="right"><span data-dropdown-id="2" class="button actionButton dropdownTrigger"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#share"></use></svg></span></div>
+  </div>
+  <div class="sections compact hidden">
+    <div class="right"><span data-dropdown-id="2" class="button actionButton dropdownTrigger"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#share"></use></svg></span></div>
   </div>
 </nav>
+
+<!-- Share Window -->
+<div class="dropdown share bottom right" data-dropdown-id="2" data-text="Take a look at this" data-url="https://designmodo.com" data-pinterest-image="https://designmodo.com/wp-content/uploads/2015/10/Presentation.jpg">
+  <div class="title">Share</div>
+  <ul>
+    <li class="facebook"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#fb-like"></use></svg></li>
+    <li class="twitter"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#twitter"></use></svg></li>
+    <li class="googlePlus"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#googlePlus"></use></svg></li>
+    <li class="pinterest"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#pinterest"></use></svg></li>
+    <!-- li class="stumbleupon"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#stumbleupon"></use></svg></li>
+    <li class="linkedin"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#linkedin"></use></svg></li -->
+    <li class="mail" data-subject="Subject" data-body="Body">share by email</li>
+  </ul>
+</div>
 
 <!-- Preloader -->
 <div class="loadingIcon"><svg class="loading-icon" id="loading-circle" viewBox="0 0 18 18"><circle class="circle" opacity=".1" stroke="#fff" stroke-width="2" stroke-miterlimit="10" cx="9" cy="9" r="8" fill="none"></circle><circle class="dash" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" stroke-dasharray="1,100" cx="9" cy="9" r="8" fill="none"></circle></svg></div>
