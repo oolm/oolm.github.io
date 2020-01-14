@@ -10,12 +10,22 @@
   }
 
   @media (min-width: 1024px) {
-    img._side {
-      border-radius: 8px;
-      
+    img._side_left {
+      border-radius: 16px;
       opacity: 0.5;
       filter: alpha(opacity=50);
       margin: 5% -100% 5% -135% !important;
+      width: 225%;
+      max-width: none;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    img._side_right {
+      border-radius: 16px;
+      opacity: 0.5;
+      filter: alpha(opacity=50);
+      margin: -10% -100% -10% 10% !important;
       width: 225%;
       max-width: none;
     }
