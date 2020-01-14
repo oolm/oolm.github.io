@@ -9,6 +9,22 @@
     vertical-align:middle;
   }
 
+  @media (min-width: 1024px) {
+    img._side {
+      border-radius: 8px;
+      
+      opacity: 0.5;
+      filter: alpha(opacity=50);
+      margin: 5% -100% 5% -135% !important;
+      width: 225%;
+      max-width: none;
+    }
+  }
+
+  ._panel_opacity {
+    opacity: 0.3;
+  }
+
   _right {
     text-align:right;
   }
