@@ -5,54 +5,18 @@
 		<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
 		<meta name="apple-mobile-web-app-capable" content="yes" />
 
-<!-- Metadata for SEO -->
-    <meta name="description" content="הורים ומטפלים נפגשים. בואו נמצא לילדכם את הטיפול הטוב ביותר">
-    <meta name="author" content="Only One Like Me">
-    <meta property="og:type" content="website">
-    <meta property="og:locale" content="he_IL">
-    <meta property="og:site_name" content="Only One Like Me">
-    <meta property="og:title" content="Only One Like Me">
-    <meta property="og:url" content="https://onlyonelike.me">
-    <meta property="og:description" content="הורים ומטפלים נפגשים. בואו נמצא לילדכם את הטיפול הטוב ביותר">
-    <meta property="og:image" content="https://onlyonelike.me/assets/i2/ooml-og-image.jpg">
-    <meta name="twitter:site" content="@OTherapists">
-    <meta name="twitter:title" content="Only One Like Me">
-    <meta name="twitter:description" content="הורים ומטפלים נפגשים. בואו נמצא לילדכם את הטיפול הטוב ביותר">
-    <meta name="twitter:url" content="https://onlyonelike.me">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image" content="https://onlyonelike.me/assets/i2/ooml-og-image.jpg">
-
-    <!-- Favicons and home page icons -->
-    <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/manifest.json">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-    <meta name="theme-color" content="#ffffff">
-
-    <link rel="canonical" href="https://onlyonelike.me/">
 		<!-- Page Title -->
-		<title>Only One Like Me</title>
+		<title>Template Generator</title>
 
 		<!-- Fonts and Material Icons -->
-		<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700|Roboto|Material+Icons" rel="stylesheet" type="text/css"/>
+		<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700|Material+Icons" rel="stylesheet" type="text/css"/>
 		
+
 		<!-- Styles -->
-		<link href="css/slides.min.css" rel="stylesheet" type="text/css">
+		<link href="css/slides.css" rel="stylesheet" type="text/css">
 
 		<!-- Custom Styles -->
-    <link href="css/custom.css" rel="stylesheet" type="text/css">
+		<!--link href="css/custom.css" rel="stylesheet" type="text/css"-->
 
 		<!-- Scripts -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
@@ -63,7 +27,8 @@
 		<!--script src="js/custom.js" type="text/javascript" name="custom-scripts"></script-->
 		 
 	</head>
-	<body class="slides smooth simplifiedMobile smoothScroll animated">
+	<body class="slides animated">
+		
 
 <!-- SVG Library -->
 <svg xmlns="http://www.w3.org/2000/svg" style="display:none">
@@ -137,284 +102,84 @@
 
 </svg>
 
-<!-- Navigation -->
-<nav class="side">
-  <div class="navigation">
-    <ul></ul>
+<!-- Panel Top #07 -->
+<nav class="panel top">
+  <div class="sections">
+    <div class="left"><a href="#" title="Brand Name"><svg style="width:107px;height:31px"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#logo"></use></svg></a></div>
+    <div class="right"><span class="button actionButton dropdownTrigger" data-dropdown-id="1"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#share"></use></svg></span><span class="button actionButton sidebarTrigger" data-sidebar-id="1"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#menu"></use></svg></span></div>
   </div>
 </nav>
 
-<!-- Panel Top #10 -->
-<nav class="panel top forceMobileView oolm_color_1" style="opacity:0.6">
-  <div class="sections desktop">
-    <div class="left">
-      <ul class="menu uppercase crop">
-        <li><a href="#home"><img src="assets/i2/logo_tr_50px.png" alt="Only One Like Me" 
-            height="50" class="_logo"></a></li>  
-        <li><a href="#">English</a></li>
-        <li><a href="http://twitter.com/OTherapists" target="_blank"><svg class="twitterIcon"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#twitter"></use></svg></a></li>
-      </ul>
-    </div>
-    <div class="center">
-      <ul class="menu uppercase crop">
-        <li><a href="#">צרו קשר</a></li>
-        <li><a href="#who">מי אנחנו</a></li>
-        <li><a href="#solution">הפתרון שלנו</a></li>
-    
-      </ul>
-    </div>
-    <div class="right"><a class="button menuButton round" href="#">אזור אישי</a></div>
-  </div>
-  
-  <div class="sections compact hidden">
-    <div class="left">
-      <!--<a href="#" title="Brand Name"><svg style="width:107px;height:31px"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#logo"></use></svg></a>-->
-      <a href="#"><img src="assets/i2/logo_tr_50px.png" alt="Only One Like Me" 
-            height="50" class="_logo"></a>
-    </div>
-    <div class="right"><span class="button actionButton sidebarTrigger" data-sidebar-id="1"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#menu"></use></svg></span></div>
-  </div>
-</nav>
-
-<!-- Sidebar -->
-<nav class="sidebar oolm_color_1" data-sidebar-id="1" style="opacity:0.95">
+<!-- Sidebar --> 
+<nav class="sidebar deepPurple" data-sidebar-id="1">
   <div class="close"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close"></use></svg></div>
   <div class="content">
-    <!--<a href="#" title="Brand Name" class="logo"><svg width="120" height="50"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#logo"></use></svg></a>-->
-    <ul class="mainMenu uppercase _right">
-      <li><a href="#solution">הפתרון שלנו</a></li>
-      <li><a href="#who">מי אנחנו</a></li>
-      <li><a href="#">צרו קשר</a></li>
+    <a href="#" title="Brand Name" class="logo"><svg width="120" height="50"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#logo"></use></svg></a>
+    <ul class="mainMenu uppercase">
+      <li><a href="#">Tour</a></li>
+      <li><a href="#">Upgrade</a></li>
+      <li><a href="#">Help</a></li>
+      <li><a href="#">Explore</a></li>
     </ul>
     <ul class="subMenu">
-      <li><a href="#">English &nbsp; &#x1f1fa;&#x1f1f8;</a></li>
+      <li><a href="#">About Us</a></li>
+      <li><a href="#">Blog</a></li>
+      <li><a href="#">Press & Media</a></li>
+      <li><a href="#">Terms of Use</a></li>
+      <li><a href="#">Privacy Policy</a></li>
+      <li><a href="#">Contact Us</a></li>
     </ul>
     <ul class="social">
       <li><a href="#"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#twitter"></use></svg></a></li>
       <li><a href="#"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#facebook"></use></svg></a></li>
+      <li><a href="#"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#googlePlus"></use></svg></a></li>
+      <li><a href="#"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#pinterest"></use></svg></a></li>
     </ul>
   </div>
 </nav>
 
-<!-- Slide 1 (#13) -->
-<section class="slide autoHeight fade kenBurns zoomout oolm_color_2" data-name="home">
-  <div class="content">
-    <div class="container">
-      <div class="wrap">
-        <div class="fix-10-12">
-          <div class="ae-2 crop">
-            <h1 class="huge">הורים ומטפלים נפגשים</h1>
-          </div>
-          <div class="ae-2">
-            <h2>בואו נמצא לילדכם את הטיפול הטוב ביותר</h2><p></p>
-          </div>
-          <div class="ae-2">
-            <form action="#" autocomplete="off">
-              <input type="submit" class="button oolm_color_4 ae-5 fromBlur rounded" name="submit" value="אני רוצה להתחיל"/>
-            </form>
-          </div>
-        </div>
-                
-      </div>
-    </div>
-  </div>
-  <div class="background" style="background-image:url(assets/i2/family_therapist.jpg)"></div>
-</section>
-
-<!-- Slide 2 #62 -->
-<section class="slide fade kenBurns zoomout oolm_color_3" data-name="why">
-  <div class="content">
-    <div class="container">
-      <div class="wrap">
-        <div class="fix-12-12">
-          <ul class="flex verticalTop _right">
-            <li class="col-12-12 right _right" style="margin-top:5%">
-              <h1 class="ae-2 crop _right">אין תרופת קסם לכל האתגרים של ילדינו</h1>
-              <ul class="flex">
-                <li class="col-3-12" style="float: right; overflow:auto">
-                  <div class="ae-3">
-                    <form action="#" autocomplete="off">
-                      <input type="submit" class="button oolm_color_5 fromBlur rounded stroke" name="submit" value="בואו נמצא מטפלים"/>
-                    </form>
-                  </div>
-                </li>
-                <li class="col-9-12">
-                  <div class="ae-3">
-                    <h2>ישנם טיפולים רבים שיכולים לשפר את איכות חייהם</h2>
-                  </div>
-                </li>
-              </ul>
-              <ul class="flex grid-61 later">
-                <li class="col-6-12 ae-4">
-                  <i class="material-icons text-oolm_color_5">fingerprint</i>
-                  <h3>?איך מוצאים מידע ולא טובעים בו</h3>
-                  <p class="small">המידע מפוזר בין מקורות רבים, לא תמיד עדכני ובעיקר רובו לא רלוונטי לילד שלי</p>
-                </li>
-                <li class="col-6-12 ae-5">
-                  <i class="material-icons text-oolm_color_5">people_outline</i>
-                  <h3>?איך מוצאים מטפלים, תרפיסטים, משלבים</h3>
-                  <p class="small">?יש להם נסיון עם המצב או המתרות שהצבנו? הם זמינים בשעות שמתאימות לנו? אפשר לקבל החזרים</p>
-                </li>
-                <li class="col-6-12 ae-6">
-                  <i class="material-icons text-oolm_color_5">library_books</i>
-                  <h3>?איך לנהל ולשתף תיק טיפולים</h3>
-                  <p class="small">אף אחד לא מנהל תיק טיפולים שאינם רפואים עבורנו. הרבה גורמים מבקשים גישה אל המסמכים</p>
-                </li>
-                <li class="col-6-12 ae-7">
-                  <i class="material-icons text-oolm_color_5">attach_money</i>
-                  <h3>?זה יקר, מאיפה אממן את הטיפולים</h3>
-                  <p class="small">לילדנו מגיעות זכויות לטיפולים והחזרים מקופת חולים, מוסדות חינוך, יישוב שבו אתם מתגוררים ומעמותות</p>
-                </li>
-              </ul>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="background" style="background-image:url(assets/i2/mother_hugs_kid_father_therapist.jpg)"></div>
-</section> 
-
-<!-- Slide 2 (#40) 
-<section class="slide fade kenBurns oolm_color_3" data-name="why">
-  <div class="content">
-    <div class="container">
-      <div class="wrap">
-          <div class="ae-2">
-            <h1 class="ae-2 crop _right">אין תרופת קסם שיכולה לרפא את כל הבעיות והאתגרים של ילדינו</h1>
-          </div>
-          <div class="ae-2">
-            <h2>אך ישנם טיפולים רבים אשר יכולים לשפר את איכות חייהם</h2>
-          </div>
-          <form action="#" autocomplete="off">
-            <input type="submit" class="button oolm_color_5 ae-5 fromBlur rounded stroke" name="submit" value="בואו נמצא מטפלים"/>
-          </form>
-      </div>
-    </div>
-  </div>
-  <div class="background" style="background-image:url(assets/i2/mother_hugs_kid_father_therapist.jpg)"></div>
-</section>-->
-
-<!-- Slide 3 (#61) -->
-<section class="slide fade oolm_color_2 kenBurns"  data-name="solution">
-  <div class="content">
-    <div class="container">
-      <div class="wrap">
-          
-        <div class="fix-12-12">
-          <ul class="flex verticalTop">
-            <li class="col-4-12 left ae-1">
-              <img class="_side_left margin-bottom-3" src="assets/i2/physical_therapy_kid_therapist.jpg" height="auto" width="auto" alt="Kid and therapist"/>
-            </li>
-            <li class="col-8-12 right _right" style="margin-top:5%">
-              <ul class="flex">
-                <li class="col-5-10" style="float: right; overflow:auto">
-                  <div class="ae-3">
-                    <form action="#" autocomplete="off">
-                      <input type="submit" class="button oolm_color_4 ae-5 fromBlur rounded stroke" name="submit" value="בואו נתחיל"/>
-                    </form>
-                  </div>
-                </li>
-                <li class="col-5-10">
-                  <h1 class="ae-2">הפתרון שלנו</h1>
-                </li>
-              </ul>
-              <ul class="flex grid-61 later">
-                <li class="col-6-12 ae-4">
-                  <i class="material-icons text-oolm_color_4">fingerprint</i>
-                  <h3>מידע מותאם אישית</h3>
-                  <p class="small">הנגשת המידע בצורה קלה</p>
-                </li>
-                <li class="col-6-12 ae-5">
-                  <i class="material-icons text-oolm_color_4">people_outline</i>
-                  <h3>התאמה ושידוך בין הורים למטפלים</h3>
-                  <p class="small">התאמה על פי המלצות, זמינות והתמחות רלוונטית</p>
-                </li>
-                <li class="col-6-12 ae-6">
-                  <i class="material-icons text-oolm_color_4">library_books</i>
-                  <h3>בניה וניהול של תוכנית טיפולים</h3>
-                  <p class="small">תוכנית טיפולים עקבית ומתואמת בין ההורים והמטפלים</p>
-                </li>
-                <li class="col-6-12 ae-7">
-                  <i class="material-icons text-oolm_color_4">attach_money</i>
-                  <h3>ניהול ההוצאות</h3>
-                  <p class="small">בצורה אופטימלית תוך מימוש זכויות לטיפולים והחזרים</p>
-                </li>
-              </ul>
-            </li>
-          </ul>
-        </div>
-        
-      </div>
-    </div>
-  </div>
-  <div class="background" style="background-image:url(assets/i2/b11.jpg)"></div>
-</section>
-
-<!-- Slide #31 -->
-<section class="slide fade kenBurns fromRight" data-name="who">
-  <div class="content">
-    <div class="container">
-      <div class="wrap">
-          
-        <div class="fix-12-12">
-          <h1 class="ae-1">?מי אנחנו</h1>
-          <div class="ae-2">
-            <p>אנחנו הורים לילדים עם צרכים מיוחדים שאחרי שנים של טיפולים החליטו שהגיע זמן לטפל בבעיות שאנחנו והורים אחרים נתקלים בנסיון לתת את העתיד הטוב ביותר לילדנו</p>
-          </div><p></p>
-          <ul class="flex reverse right _right">
-            <li class="col-1-12 right _right"></li>
-            <li class="col-5-12 right _right">
-              <div class="relative">
-                <img width="60" class="avatar-31 ae-2 fromCenter margin-left-2" src="assets/i2/rachel-thumb.jpg" alt="Rachel Kahana-Samet"/>
-                <div class="quote-31">
-                  <h3 class="ae-4 margin-bottom-0">רחל כהנא סמט</h3>
-                  <div class="ae-5"><p class="small">אמא לאופק ושני אחיו ונשואה לקובי</p></div>
-                  <div class="ae-6"><p class="small"> אופק בן 12 ומאובחן בתסמונת נדירה ונמצא על הספקטרום האוטיסטי</p></div>
-                </div>
-            </li>
-            <li class="col-5-12 right _right ae-1 fromRight">
-              <div class="relative">
-                <img width="60" class="avatar-31 ae-2 fromCenter margin-left-2" src="assets/i2/vitaly-thumb.jpg" alt="Vitaly Vainer"/>
-                <div class="quote-31">
-                  <h3 class="ae-4 margin-bottom-0">ויטלי ויינר</h3>
-                  <div class="ae-5"><p class="small">אבא לליאור ושני אחיו ונשוי לאנה</p></div>
-                  <div class="ae-6"><p class="small">ליאור בן 13 ומאובחן על הספקטרום האוטיסטי</p></div>
-                </div>
-            </li>
-            <li class="col-1-12 right _right"></li>
-          </ul>
-        </div>
-        
-      </div>
-    </div>
-  </div>
-  <div class="background" style="background-image:url(assets/i2/b2.jpg)"></div>
-</section>
-
-
-<!-- Panel Bottom #22 -->
-<nav class="panel bottom">
-  <div class="sections">
-    <div class="center"><span class="nextSlide"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#arrow-down"></use></svg></span></div>
-    <div class="right"><span data-dropdown-id="2" class="button actionButton dropdownTrigger"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#share"></use></svg></span></div>
-  </div>
-  <div class="sections compact hidden">
-    <div class="left"><nav><div class="navigation"><ul></ul></div></nav></div>
-    <div class="right"><span data-dropdown-id="2" class="button actionButton dropdownTrigger"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#share"></use></svg></span></div>
-  </div>
-</nav>
-
 <!-- Share Window -->
-<div class="dropdown share bottom right" data-dropdown-id="2" data-text="אתר שמפגיש הורים ומטפלים" data-url="https://onlyonelike.me" data-pinterest-image="https://onlyonelike.me/assets/i2/ooml-og-image.jpg">
+<div class="dropdown share top right" data-dropdown-id="1" data-text="Take a look at this" data-url="https://designmodo.com" data-pinterest-image="https://designmodo.com/wp-content/uploads/2015/10/Presentation.jpg">
   <div class="title">Share</div>
   <ul>
     <li class="facebook"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#fb-like"></use></svg></li>
     <li class="twitter"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#twitter"></use></svg></li>
-    <!--<li class="pinterest"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#pinterest"></use></svg></li>-->
-    <li class="mail" data-subject="אתר שמפגיש הורים ומטפלים" data-body="">share by email</li>
+    <li class="googlePlus"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#googlePlus"></use></svg></li>
+    <li class="pinterest"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#pinterest"></use></svg></li>
+    <!-- li class="stumbleupon"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#stumbleupon"></use></svg></li>
+    <li class="linkedin"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#linkedin"></use></svg></li -->
+    <li class="mail" data-subject="Subject" data-body="Body">share by email</li>
   </ul>
 </div>
+
+<!-- Slide 1 (#43) -->
+<section class="slide fade kenBurns">
+  <div class="content">
+    <div class="container">
+      <div class="wrap">
+      
+        <h1 class="ae-1">Sign In</h1>
+        <div class="fix-5-12 margin-top-3 center">
+          <div class="pad shadow selected ae-3">
+            <form action="#" autocomplete="on" class="wide">
+              <div class="label ae-3 cropTop"><label class="cropTop opacity-5" for="email43">Email address</label></div>
+              <input class="wide ae-4 center" id="email43" type="email" name="email" placeholder="Email address" required/>
+              <div class="label ae-5"><label class="opacity-5" for="password43">Password</label></div>
+              <input class="wide ae-6 center" id="password43" type="password" name="password" placeholder="Password" required/>
+              <div class="ae-7">
+                <p class="remind-43 micro opacity-5"><a href="#">Forgot your password?</a></p>
+              </div>
+              <input class="button cropBottom wide pink ae-9" type="submit" name="submit" value="Sign in"/>
+            </form>
+          </div>
+          <div class="ae-10"><p class="text-43 small opaque"><span class="opacity-5">Don’t have an account?</span><br><a href="#" class="bold">Create Account</a></p></div>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  <div class="background" style="background-image:url(assets/img/img-43.jpg)"></div>
+</section>
 
 <!-- Preloader -->
 <div class="loadingIcon"><svg class="loading-icon" id="loading-circle" viewBox="0 0 18 18"><circle class="circle" opacity=".1" stroke="#fff" stroke-width="2" stroke-miterlimit="10" cx="9" cy="9" r="8" fill="none"></circle><circle class="dash" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" stroke-dasharray="1,100" cx="9" cy="9" r="8" fill="none"></circle></svg></div>
