@@ -8,7 +8,7 @@ nav_tag: why
 
 # texts
 h1: There is no silver bullet for the challenges our children face
-h2: Many therapies can improve your child's quality of life
+h2: "Many therapies can improve your child's quality of life"
 action_title: "Let's find therapists"
 h3_1: 'How do I find only the relevant information?'
 p_1: 'Information is scattered across many sources, it's not always up to date and the majority of it is irrelevant to your needs'
