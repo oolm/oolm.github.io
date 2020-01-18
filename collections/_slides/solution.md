@@ -12,10 +12,10 @@ action_title: "Let's begin"
 h1: Our Solution
 h2:
 h3_1: Personalized information
-p_1: Access the information relevant to your situation
+p_1: Access the information relevant for you easily
 i_1: fingerprint
 h3_2: Match you with the best therapists
-p_2: Match according to recommendations, fit to your situation and goals and their and yours availability
+p_2: Match according to recommendations, fit to your diagnosis, goals, availability and location
 i_2: people_outline
 h3_3: Building and managing treatment plan
 p_3: Consistent treatment plan aligned between parents and therapists

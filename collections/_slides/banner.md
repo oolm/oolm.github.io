@@ -7,7 +7,7 @@ nav_tag: home
 
 # texts
 h1: Parents meet therapists
-h2: Find best therapy for your children special needs
+h2: Let's find the best therapy for your children special needs
 action_title: Let's start
 
 # graphics
