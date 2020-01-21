@@ -13,7 +13,7 @@ bg_image: assets/i2/b2.jpg
 h1: 'Who Are We?'
 h1_p: 'We are parents to children with special needs, who decided after many years of managing treatments and therapies to tackle the problems we and other parents encounter while trying to create a better future for our children'
 h3_1: Rachel Kahana Samet
-h3_1_p1: Mother of Ofek and his 2 brothers, happily married to Koby
+h3_1_p1: Mother of Ofek and his 2 brothers, happily married to Kobi
 h3_1_p2: Ofek is 12 years old, diagnosed with a rare syndrome and autism
 h3_1_img: assets/i2/rachel-thumb.jpg
 h3_2: Vitaly Vainer
