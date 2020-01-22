@@ -20,8 +20,8 @@ email: info@onlyonelike.me
 twitter_username: ool_me
 author: ool_me
 locale: en_US
-og_image: https://onlyonelike.me/assets/i2/ooml-og-image.jpg
-twitter_image: https://onlyonelike.me/assets/i2/ooml-og-image.jpg
+og_image: https://onlyonelike.me/assets/i2/ooml-og-image-en.jpg
+twitter_image: https://onlyonelike.me/assets/i2/ooml-og-image-en.jpg
 twitter:
   username: ool_me
   card: summary_large_image
@@ -64,9 +64,9 @@ defaults:
       locale: en_US
       lang: en_US
       rtl: false
-      og_image: https://onlyonelike.me/assets/i2/ooml-og-image.jpg
-      image: https://onlyonelike.me/assets/i2/ooml-og-image.jpg
-      twitter_image: https://onlyonelike.me/assets/i2/ooml-og-image.jpg
+      og_image: https://onlyonelike.me/assets/i2/ooml-og-image-en.jpg
+      image: https://onlyonelike.me/assets/i2/ooml-og-image-en.jpg
+      twitter_image: https://onlyonelike.me/assets/i2/ooml-og-image-en.jpg
       logo: assets/i2/logo_tr_50px.png
       social:
         links:
