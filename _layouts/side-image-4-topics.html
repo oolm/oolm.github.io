@@ -1,40 +1,28 @@
-{% if page.rtl == true %}
-  {% assign direction = "right" %}
-{% else %}
-  {% assign direction = "left" %}
-{% endif %}
+{% include liquid_init.html %}
 {% capture form %}
-  <li class="col-5-10" style="float:{{ direction }}; overflow:auto">
-    <div class="ae-3">
-      <form action="{{ page.signup }}" autocomplete="off">
-        <input type="submit" class="button oolm_color_4 ae-5 fromBlur rounded stroke" name="submit_{{ page.nav_tag }}" value="{{ page.action_title }}"/>
-      </form>
+  <li class="col-6-12" style="float:{{ alignment }}; overflow:auto">
+    <div class="right ae-3">
+      <button class="button popupTrigger rounded stroke fromBlur white sourceSans oolm_color_4 ae-5" data-popup-id="subscribe" tabindex="0">{{ page.action_title }}</button>
     </div>
   </li>
 {% endcapture %}
 
 <!-- Slide 3 (#61) -->
 <section class="slide fade oolm_color_2 kenBurns"  data-name="{{ page.nav_tag }}">
-  <div class="content">
+  <div class="content ">
     <div class="container">
       <div class="wrap">
-          
         <div class="fix-12-12">
-          <ul class="flex verticalTop">
+          <ul class="flex verticalTop {{ alignment }} _{{ alignment }}">
             <li class="col-4-12 left ae-1">
               <img class="_side_left margin-bottom-3" src="{{ page.image_src }}" height="auto" width="auto" alt="{{ page.image_alt }}"/>
             </li>
-            <li class="col-8-12 {{ direction }} _{{ direction }}" style="margin-top:5%">
+            <li class="col-8-12 {{ direction }}" style="margin-top:5%">
               <ul class="flex">
-                {% if page.rtl == true %}
-                  {{ form }}
-                {% endif %}
-                <li class="col-5-10">
+                <li class="col-6-12">
                   <h1 class="ae-2">{{ page.h1 }}</h1>
                 </li>
-                {% if page.rtl == false %}
-                  {{ form }}
-                {% endif %}
+                {{ form }}
               </ul>
               <ul class="flex grid-61 later">
                 <li class="col-6-12 ae-4">
@@ -54,7 +42,7 @@
                 </li>
                 <li class="col-6-12 ae-7">
                   <i class="material-icons text-oolm_color_4">{{ page.i_4 }}</i>
-                  <h3>{{ page.h3_3 }}</h3>
+                  <h3>{{ page.h3_4 }}</h3>
                   <p class="small">{{ page.p_4 }}</p>
                 </li>
               </ul>

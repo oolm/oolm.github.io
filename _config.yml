@@ -9,19 +9,19 @@ layout: empty
 # Site defaults
 us_url: https://onlyonelike.me
 il_url: https://il.onlyonelike.me
-title: Only One Like Me - Parents Meet Therapists
-tagline: Build and manage the best care for your child
+title: Only One Like Me - הורים פוגשים מטפלים
+tagline: מוצאים ומנהלים את הטיפול האופטימלי לילדכם
 description: >- # this means to ignore newlines until "baseurl:"
-  Parents and therapists meet. Build and manage the best care for your child 
-  while utilizing your child rights and eligibilities and keeping your expenses under control  
+  הורים ומטפלים נפגשים. 
+  מוצאים ובונים את הטיפול האופטימלי לילדכם תוך כדי ניצול הזכויות ושמירה על התקציב
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://onlyonelike.me" # the base hostname & protocol for your site, e.g. http://example.com
 email: info@onlyonelike.me
 twitter_username: ool_me
 author: ool_me
-locale: en_US
-og_image: https://onlyonelike.me/assets/i2/ooml-og-image-en.jpg
-twitter_image: https://onlyonelike.me/assets/i2/ooml-og-image-en.jpg
+locale: he_IL
+og_image: https://onlyonelike.me/assets/i2/ooml-og-image.jpg
+twitter_image: https://onlyonelike.me/assets/i2/ooml-og-image.jpg
 twitter:
   username: ool_me
   card: summary_large_image
@@ -41,6 +41,12 @@ logo: assets/i2/logo_tr_50px.png
 
 collections:
   - slides
+# strings
+strings:
+  popup_close: "סגור"
+
+chatbot:
+  subscribe_url: "https://do.formito.com/e/1o0"
 
 # Defaults for the pages and posts
 defaults:
@@ -48,11 +54,11 @@ defaults:
       path: "" # all files
     values:
       layout: empty
-      title: Only One Like Me - Parents Meet Therapists
-      tagline: Build and manage the best care for your child
+      title: Only One Like Me - הורים פוגשים מטפלים
+      tagline: מוצאים ומנהלים את הטיפול האופטימלי לילדכם
       description: >- # this means to ignore newlines until "baseurl:"
-        Parents and therapists meet. Build and manage the best care for your child 
-        while utilizing your child rights and eligibilities and keeping your expenses under control  
+        הורים ומטפלים נפגשים. 
+        מוצאים ובונים את הטיפול האופטימלי לילדכם תוך כדי ניצול הזכויות ושמירה על התקציב
       baseurl: "" # the subpath of your site, e.g. /blog
       url: "https://onlyonelike.me" # the base hostname & protocol for your site, e.g. http://example.com
       email: info@onlyonelike.me
@@ -61,12 +67,12 @@ defaults:
         username: ool_me
         card: summary_large_image
       author: ool_me
-      locale: en_US
-      lang: en_US
-      rtl: false
-      og_image: https://onlyonelike.me/assets/i2/ooml-og-image-en.jpg
-      image: https://onlyonelike.me/assets/i2/ooml-og-image-en.jpg
-      twitter_image: https://onlyonelike.me/assets/i2/ooml-og-image-en.jpg
+      locale: he_IL
+      lang: he_IL
+      rtl: true
+      og_image: https://onlyonelike.me/assets/i2/ooml-og-image.jpg
+      image: https://onlyonelike.me/assets/i2/ooml-og-image.jpg
+      twitter_image: https://onlyonelike.me/assets/i2/ooml-og-image.jpg
       logo: assets/i2/logo_tr_50px.png
       social:
         links:
